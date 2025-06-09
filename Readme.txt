@@ -8,3 +8,4 @@ Version 1.03 - Added Assignment.html for further tasks
 Version 1.04 - Added Basic Webpage Assignment content about Guilds
 Version 1.05 - Added all tasks up to but not including video assignment
 Version 1.06 - Completed Video Assignment HTML tasks
+Version 1.07 - Added embeded video and a HTML blockquote referencing wiki in Challange#1
