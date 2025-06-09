@@ -5,5 +5,6 @@ Version 1.01 - Slight spelling correction. ""
 
 Version 1.02 - Created html page assignment with Notepad++
 Version 1.03 - Added Assignment.html for further tasks
-Version 1.04 - Added Basic Webpage Assignment content about Guilds 
+Version 1.04 - Added Basic Webpage Assignment content about Guilds
 Version 1.05 - Added all tasks up to but not including video assignment
+Version 1.06 - Completed Video Assignment HTML tasks
