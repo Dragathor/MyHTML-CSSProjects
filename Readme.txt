@@ -11,4 +11,5 @@ Version 1.06 - Completed Video Assignment HTML tasks
 Version 1.07 - Added embeded video and a HTML blockquote referencing wiki in Challenge#1
 
 Version 1.1 - HTML Documents Assignment 2 Files with video and picture
-Version 1.11 - Moved all previous MyHTML&CSSProjects files into challenge 1 folder. Clearing space for new tasks 
+Version 1.11 - Moved all previous MyHTML&CSSProjects files into challenge 1 folder. Clearing space for new tasks
+Version 1.12 - Move files back to main folder 
