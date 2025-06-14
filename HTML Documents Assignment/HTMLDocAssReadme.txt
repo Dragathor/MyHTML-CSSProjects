@@ -8,4 +8,4 @@ Your code must use the <nav> element linking both HTML files.
 Your code must include a link to a Youtube video or an embedded Youtube video.
 Your code must include an image.
 
-Also added text border limits as it as annoying me. 
+Also added text border limits as it was annoying me.
