@@ -28,3 +28,4 @@ Version 1.4.2.2 - Changed .css to Basic_CSS_1.css and changed Basic_HTML_3 targe
 Version 1.4.3 - Created Basic_HTML_4 added classes to target text via style linked footer to Basic_CSS_1
 Version 1.4.4 - Created Basic_HTML_5 & Basic_CSS_2 linked css to html and creaded a paragraph css
 Version 1.4.5 - Created HTML_Table and HTML_Lists .css for simple table creation for "Styling Tables with CSS" 
+Version 1.4.5 - Added shadow and &entity_name to Basic_HTML_5 and Basic_CSS_2
