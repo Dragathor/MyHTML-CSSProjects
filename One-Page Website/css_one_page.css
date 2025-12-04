@@ -1,0 +1,75 @@
+header {
+	font-weight: bold;
+	text-align: center;
+}
+
+body {
+	text-align: center;
+	background-image: url("./Images/Great Hall.png");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.centre-box {
+	text-align: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	background-image: url("./Images/scroll.jpg");
+	background-size: fit;
+	padding: 20px;
+}
+
+.pict {
+	position: relative;
+	text-align: center;
+	display: inline-block;
+	width: 40%;
+	padding: 20px;
+	background-color:
+}
+
+img {
+	display: block;
+	margin: auto;
+	text-align: auto;
+	border-radius: 10%;
+	object-fit: cover;
+}
+
+
+
+form {
+	text-align: center;
+}
+
+.centered-txt {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 5%;
+	background-color: white
+}
+.text1 {
+	font-size: 30px;
+	font-family: Copperplate, Papyrus, fantasy;
+}
+
+.text2 {
+	border-style: solid;
+	border-color: red;
+	font-size: 30px;
+	font-family: Copperplate, Papyrus, fantasy;
+	border-radius: 10%;
+	background: rgba(255, 255, 255, 0.1);
+}
+
+h3 {
+	background-color: white;
+	border-radius: 10%;
+}
+
