@@ -31,3 +31,6 @@ Version 1.4.5 - Created HTML_Table and HTML_Lists .css for simple table creation
 Version 1.4.5 - Added shadow and &entity_name to Basic_HTML_5 and Basic_CSS_2
 
 Version 1.5.0 - Finished One-Page Website GitHub Submission Assignment
+
+Version 1.6.0 Started CSS and Bootstrap unit and created folder
+Version 1.6.1 Created HTML in Visual Studio Code Challenge html page
