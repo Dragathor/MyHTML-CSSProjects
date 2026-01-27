@@ -36,3 +36,4 @@ Version 1.6.0 Started CSS and Bootstrap unit and created folder
 Version 1.6.1 Created HTML in Visual Studio Code Challenge html page
 Version 1.6.2 Started and finished the basic_css_demo_1 
 Version 1.6.2 Started and finished Creating a CSS Menu assignment
+Version 1.6.2 Started and finished Effecting Images with CSS
