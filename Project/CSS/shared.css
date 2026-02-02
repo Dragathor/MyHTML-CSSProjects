@@ -46,6 +46,16 @@ h1::after { /* This is the underline */
 	box-shadow: 5px 2px 3px rgba(0, 0, 0, 0.5);
 }
 
+.h1-2 {
+	line-height: 50px;
+	font-weight: 900;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #000000;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
 h2 {
 	line-height: 50px;
 	color: #e91c1c;
@@ -53,7 +63,7 @@ h2 {
 
 h3 {
 	line-height: 30px;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 
 h4 {
@@ -66,7 +76,7 @@ h4 {
 
 p {
 	font-weight: 300;
-	line-height: 40px;
+	line-height: 30px;
 	padding-bottom: 15px;
 }
 
@@ -144,30 +154,76 @@ section {
 
 /* Hone section styles */
 
-#home {
+#Entrance {
 	background: url(../Images/Bob.png) no-repeat 50% 50%;
 	background-attachment: fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	-webkit-background-size: 100vw 100vh;
+	-moz-background-size: 100vw 100vh;
+	-o-background-size: 100vw 100vh;
+	background-size: 100vw 100vh;
 	width: 100%;
 	display: block;
 	height: auto;
-	padding-top: 350px; /* This is spacer before the Main title Logo */
-	padding-bottom: 500px; /* This is spacer after the Main title Logo */
+	padding-top: 150px; /* This is spacer before the Main title Logo */
+	padding-bottom: 350px; /* This is spacer after the Main title Logo */
+	color: #fff;
+}
+
+#Locations {
+	background: url(../Images/Great\ Hall.png) no-repeat 50% 50%;
+	background-attachment: fixed;
+	-webkit-background-size: 100vw 100vh;
+	-moz-background-size: 100vw 100vh;
+	-o-background-size: 100vw 100vh;
+	background-size: 100vw 100vh;
+	width: 100%;
+	display: block;
+	height: auto;
+	padding-top: 200px; /* This is spacer before the Main title Logo */
+	padding-bottom: 100px; /* This is spacer after the Main title Logo */
+	color: #fff;
+}
+
+#Leaders {
+	background: url(../Images/Great\ Hall.png) no-repeat 50% 50%;
+	background-attachment: fixed;
+	-webkit-background-size: 100vw 100vh;
+	-moz-background-size: 100vw 100vh;
+	-o-background-size: 100vw 100vh;
+	background-size: 100vw 100vh;
+	width: 100%;
+	display: block;
+	height: auto;
+	padding-top: 150px; /* This is spacer before the Main title Logo */
+	padding-bottom: 150px; /* This is spacer after the Main title Logo */
+	color: #fff;
+}
+
+#Application-Desk {
+	background: url(../Images/Magic\ Forest.png) no-repeat 50% 50%;
+	background-attachment: fixed;
+	-webkit-background-size: 100vw 100vh;
+	-moz-background-size: 100vw 100vh;
+	-o-background-size: 100vw 100vh;
+	background-size:100vw 100vh;
+	width: 100%;
+	display: block;
+	height: auto;
+	padding-top: 100px; /* This is spacer before the Main title Logo */
+	padding-bottom: 200px; /* This is spacer after the Main title Logo */
 	color: #fff;
 }
 
 .head-main {
 	text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.9);
 	font-variant: small-caps;
-	color: #fff;
+	background: url(../Images/StockCake-Lush_green_leaves-1325590-small.jpg);
+	color: #4c9a36;
 	letter-spacing: 5pt;
 	word-spacing: 21pt;
 	font-size: 4.5em;
 	text-align: left;
-	font-family: Impact, sans-serif;
+	font-family: impact, sans-serif;
 	line-height: 2;
 	font-weight: 900;
 	border: 5px double #fff;
@@ -198,7 +254,7 @@ section {
 	padding: 10px;
 	border-radius: 8px;
 	margin: 0px auto;
-	background-color: rgba(100, 65, 0, 0.3);
+	background-color: rgba(100, 65, 0, 0.7);
 	box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.5);
 }
 
@@ -211,7 +267,7 @@ section {
 	padding: 10px;
 	border-radius: 8px;
 	margin: 0px auto;
-	background-color: rgba(100, 65, 0, 0.3);
+	background-color: rgba(100, 65, 0, 0.7);
 	box-shadow: -1px -1px 1px 0 rgba(0, 0, 0, 1), 1px, 2px, 10px 0 rgba(0, 0, 0, 0.5); 
 }
 
@@ -230,7 +286,7 @@ section {
 	width: 70%;
 	text-align: center;
 	margin: 0 auto;
-	color: #13161B;
+	color: #000000;
 	font-weight: 900;
 	font-size: 1.5em;
 	font-variant: small-caps;
@@ -278,7 +334,7 @@ section {
 }
 
 .app input[type="text"] :hover {
-	box-shadow: 0 0 18px rgba(100, 65, 0, 0.8,);
+	box-shadow: 0 0 18px rgba(100, 65, 0, .8,);
 }
 
 .form-spacer {
@@ -289,7 +345,7 @@ section {
 	margin: 30px 1px 0 0;
 	margin-top: 13%;
 	padding-left: 52px;
-	font-size: 52px;
+	font-size: 14px;
 	line-height: 5px;
 	color: #000;
 	cursor: pointer;
@@ -332,7 +388,7 @@ section {
 /* FOOTER STYLES */
 
 #footer {
-	background-color: rgba(100, 65, 0, 0.3);
+	background-color: rgba(100, 65, 0, .3);
 	color: #000;
 	text-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 1);
 	padding: 20px 50px 20px 50px;

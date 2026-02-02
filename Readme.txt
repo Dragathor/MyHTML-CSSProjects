@@ -35,6 +35,7 @@ Version 1.5.0 - Finished One-Page Website GitHub Submission Assignment
 Version 1.6.0 Started CSS and Bootstrap unit and created folder
 Version 1.6.1 Created HTML in Visual Studio Code Challenge html page
 Version 1.6.2 Started and finished the basic_css_demo_1 
-Version 1.6.2 Started and finished Creating a CSS Menu assignment
-Version 1.6.2 Started and finished Effecting Images with CSS
-Version 1.6.2 Started and finished up to Creating an HTML and CSS Website Parts One to Four
+Version 1.6.3 Started and finished Creating a CSS Menu assignment
+Version 1.6.4 Started and finished Effecting Images with CSS
+Version 1.6.5 Started and finished up to Creating an HTML and CSS Website Parts One to Four
+Version 1.6.6 Corrected errors and customised CSS Website Project
