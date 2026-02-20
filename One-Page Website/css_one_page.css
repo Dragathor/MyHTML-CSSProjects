@@ -1,50 +1,265 @@
 header {
 	font-weight: bold;
 	text-align: center;
+	padding: 40px;
 }
 
 body {
 	text-align: center;
-	background-image: url("./Images/Great Hall.png");
+	background-image: url("./Images/Great_Hall.png");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
 
-.centre-box {
+footer,
+nav {
+	display: block;
+}
+
+/* Nav menu */
+
+.wrap {
+	height:  100%;
+	width: 100%;
+	position: absolute;
+	/* This ensures that the images cannot 
+	render outside of their container 
+	without forcing any scrollbars */
+	overflow: hidden;
+	top: 0;
+	left: 0;
 	text-align: center;
+}
+
+.menu-container {
+	max-height: 340px;
+	margin: 0% auto;
+	content: " ";
+	/* top 0
+	left 0; */
+	/* position: absolute; */ /* to top edge of the screen */
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+	/* background-color: rgba(255, 255, 255, 0.5); */
+}
+
+.menu {
+        color: green;
+        font: bold 12px/18px sans-serif;
+        text-align: center;
+        display: inline;
+        margin: 0% auto;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+    }
+
+.menu li {
+    color: #000;
+    background-color: rgba(255, 255, 255, 1);
+    display: inline-block;
+    margin: 0% auto;
+    position: relative;
+    padding: 15px 4%;
+    border: 1px solid #9d9fa2;
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+    /* background-color: #052136; */
+    cursor: pointer;
+    transition-property: background;
+    transition-duration: .4s;
+    transition-delay: 0s;
+    transition-timing-function: ease-in-out;
+}
+
+.menu li:hover {
+    color: green;
+    background-color: rgba(100, 65, 0, 0.3);
+}
+
+	/* Nav menu END */
+
+	/* Form Application */
+
+.app {
+	width: 60%;
+	padding: 10px;
+	border-radius: 8px;
+	margin: 0px auto;
+	background-color: rgba(100, 65, 0, 0.0);
+	box-shadow: -1px -1px 1px 0 rgba(0, 0, 0, 1), 1px, 2px, 10px 0 rgba(0, 0, 0, 0.5); 
+}
+
+.app h2 {
+	width: 70%;
+	text-align: center;
+	margin: 0 auto;
+	color: #13161B;
+	font-weight: 500;
+	font-size: 1.3em;
+	letter-spacing: 0pt;
+	word-spacing: 0pt;
+}
+
+.app h2 span {
+	width: 70%;
+	text-align: center;
+	margin: 0 auto;
+	color: #000000;
+	font-weight: 900;
+	font-size: 1.5em;
+	font-variant: small-caps;
+	letter-spacing: .4pt;
+	word-spacing: .3pt;
+}
+
+.app p {
+	color: #13161B;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.app form {
+	font-size: 15px;
+	outline: none;
+	font-weight: 600;
+	color: #8d8e8f;
+	padding: 12px 12px;
+	width: 70%;
+	border: 1px solid #808080;
+	margin: 2% auto;
+	border-radius: 7px;
+	background: rgb(227, 222, 222);
+	background-image: url("./Images/scroll.jpg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center;
-	width: 100%;
-	background-image: url("./Images/scroll.jpg");
-	background-size: fit;
-	padding: 20px;
+	box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.5);
+	font-family: 'Raleway', sans-serif;
 }
 
-.pict {
-	position: relative;
-	text-align: center;
-	display: inline-block;
-	width: 40%;
-	padding: 20px;
-	background-color:
+.app input[type="text"] {
+	font-size: 15px;
+	outline: none;
+	font-weight: 600;
+	color: #8d8e8f;
+	padding: 2% 1% 2% 7%;
+	width: 80%;
+	border-top: 1px solid #090b0d;
+	border-right: 2px solid #424549;
+	border-bottom: 2px solid #424549;
+	border-left: 1px solid #090b0d;
+	margin: 10px 1em;
+	border-radius: 7px;
+	background: #13161B;
+	box-sizing: inset 0px 3px 0px 0px rgba(5, 5, 5, 0.15);
+	font-family: 'Raleway', sans-serif;
 }
 
-img {
-	display: block;
-	margin: auto;
-	text-align: auto;
-	border-radius: 10%;
-	object-fit: cover;
+.app input[type="text"] :hover {
+	box-shadow: 0 0 18px rgba(100, 65, 0, .8,);
 }
 
-
+.form-spacer {
+	padding: 30px 39px;
+}
 
 form {
 	text-align: center;
 }
+
+	/* END form application */
+
+	/* Leader Tiles */
+
+.container {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}	
+
+.flex-container {
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 2px;
+	border-radius: 2px;
+	margin: 2px auto;
+	background-color: rgba(100, 65, 0, 0.0);
+	box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+	/* GALLERY SECTION ANIMATION */
+
+.photo-container {
+        text-align: center;
+        margin: 5px auto;
+        width: 586px;
+        height: 702px;
+}
+
+.photo {
+        position: relative;
+        line-height: 0;
+        margin-bottom: 2em;
+        overflow: hidden;
+        border-radius: 8px;
+        padding: 1px;
+        border: 1px solid #021a40;
+        background-color: #ff0;
+        box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.7);
+}
+
+.photo-container img {
+        max-width: 100%;
+        width: 586px;
+        height: 702px;
+}
+
+.photo-overlay {
+        color: #fff;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        justify-content: center; /* For centering text inside .photo-overlay */
+        align-items: center;
+        background: rgba(0, 0, 0, .5);
+
+	/* END GALLERY SECTION ANIMATION */
+}
+
+	/* Photo Overlay Transitions */
+
+    .photo-overlay {
+        opacity: 0;
+        transition: opacity .5s;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .photo-overlay:hover {
+        opacity: 1;
+    }
+
+    .photo img {
+        transition: transform .5s;
+        transform-origin: 50% 50%;
+    }
+
+    .photo:hover img {
+        transform: scale(1.1);
+    }
+	/* END Photo Overlay Transitions */
+
+	/* END Leader Tiles */
 
 .centered-txt {
 	position: absolute;
@@ -60,16 +275,41 @@ form {
 }
 
 .text2 {
+	width: 80%;
+	padding: 10px;
+	border-radius: 8px;
+	margin: 0px auto;
 	border-style: solid;
 	border-color: red;
 	font-size: 30px;
 	font-family: Copperplate, Papyrus, fantasy;
-	border-radius: 10%;
-	background: rgba(255, 255, 255, 0.1);
+	background: rgba(255, 255, 255, 0.5);
 }
 
 h3 {
 	background-color: white;
 	border-radius: 10%;
+	width: 60%;
+	margin: 0px auto;
 }
 
+p {
+	font-weight: 300;
+	line-height: 30px;
+	padding-bottom: 15px;
+}
+
+h4 {
+	line-height: 30px;
+	padding-bottom: 10px;
+}
+
+#footer {
+	position: fixed;
+	background-color: rgba(100, 65, 0, .3);
+	color: #000;
+	text-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 1);
+	padding: 20px 50px 20px 50px;
+	text-align: right;
+
+}
