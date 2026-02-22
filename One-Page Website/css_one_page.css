@@ -291,6 +291,16 @@ h3 {
 	border-radius: 10%;
 	width: 60%;
 	margin: 0px auto;
+	font-family: Copperplate, Papyrus, fantasy;
+}
+
+.h31 {
+	background-color: white;
+	border-radius: 10%;
+	width: 60%;
+	margin: 0px auto;
+	font-family: Copperplate, Papyrus, fantasy;
+	font-weight: 300;
 }
 
 p {
