@@ -3,7 +3,7 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -16,8 +16,8 @@
 
   <!-- Navbar Bootstrap -->>
     <div class="container">
-
-      <nav class="navbar navbar-expand-lg navbar-light bg-info">
+    
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-info">
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
@@ -69,46 +69,75 @@
       <h3>Now Playing:</h3>
       <ul class="list-group">
         <li class="list-group-item">
-          <a class="nav-link" href="#">Kong: Skull Island</a>
+          <a class="nav-link active" href="#">Kong: Skull Island</a>
         </li>
         <li class="list-group-item">
-          <a class="nav-link" href="#">Ghost in the Shell</a>
+          <a class="nav-link active" href="#">Ghost in the Shell</a>
         </li>
         <li class="list-group-item">
-          <a class="nav-link" href="#">Beauty and the Beast</a>
+          <a class="nav-link active" href="#">Beauty and the Beast</a>
         </li>
-
+      </ul>
     </div>
   </div>
 </div>
 
 <!-- Showtimes -->
-
-  <div class="card-deck my-5" id="Showtimes">
-  <div class="card">
-    <img class="card-img-top" src="./Img/kongskullisland.jpg" alt="Kong:_Skull_Island">
+<div class="container">
+  <h3 id="showtimes">Showtimes:</h3>
+  <div class="row">
+  
+  <div class="col-sm">
+  <div class="card h-100">
+    <img class="card-img-top h-50" src="./Img/kongskullisland.jpg" style="object-fit: cover" aly="Kong:_Skull_Island">
     <div class="card-body">
       <h5 class="card-title">Kong: Skull Island</h5>
       <p class="card-text">A team of scientists explores an uncharted island in the Pacific, venturing into the domain of the mighty Kong and must fight to escape a primal Eden.</p>
+      <span class="badge badge-pill badge-info">12:00 p.m.</span>
+      <span class="badge badge-pill badge-info">1:30 p.m.</span>
+      <span class="badge badge-pill badge-info">3:00 p.m.</span>
+      <span class="badge badge-pill badge-info">5:30 p.m.</span>
+      <span class="badge badge-pill badge-info">7:00 p.m</span>
+      <span class="badge badge-pill badge-info">9:30 p.m.</span>
     </div>
   </div>
+  </div>
 
-  <div class="card">
-    <img class="card-img-top" src="./Img/ghostintheshell.jpg" alt="Ghost_in_the_Shell">
+  <div class="col-sm">
+  <div class="card h-100">
+    <img class="card-img-top h-50" src="./Img/ghostintheshell.jpg" style="object-fit: cover" alt="Ghost_in_the_Shell">
     <div class="card-body">
       <h5 class="card-title">Ghost in the Shell</h5>
       <p class="card-text">In the near future, Major Mira Killian is the first of her kind: A human saved from a terrible crash, who is cyber-enhanced to be a perfect soldier devoted to stopping the world's most dangerous criminals.</p>
+      <span class="badge badge-pill badge-info">12:00 p.m.</span>
+      <span class="badge badge-pill badge-info">1:30 p.m.</span>
+      <span class="badge badge-pill badge-info">3:00 p.m.</span>
+      <span class="badge badge-pill badge-info">5:30 p.m.</span>
+      <span class="badge badge-pill badge-info">7:00 p.m</span>
+      <span class="badge badge-pill badge-info">9:30 p.m.</span>
     </div>
+  </div>
   </div>
 
-  <div class="card">
-    <img class="card-img-top" src="./Img/beautyandthebeast.jpg" alt="Beauty_and_the_Beast">
+  <div class="col-sm">
+  <div class="card h-100">
+    <img class="card-img-top h-50" src="./Img/beautyandthebeast.jpg" style="object-fit: cover" alt="Beauty_and_the_Beast">
     <div class="card-body">
       <h5 class="card-title">Beauty and the Beast</h5>
-      <p class="card-text">A brave, beautiful, and brilliant young woman is imprisoned by a beast in his castle. Despite her fears, she learns to see beyond the beast's hideous exterior and realize the gentle heart of the true prince within him.</p>
+      <p class="card-text">A brilliant young woman is imprisoned by a beast in his castle. Despite her fears, she learns to see beyond the beast's hideous exterior and realize the gentle heart of the true prince within him.</p>
+      <span class="badge badge-pill badge-info">12:00 p.m.</span>
+      <span class="badge badge-pill badge-info">1:30 p.m.</span>
+      <span class="badge badge-pill badge-info">3:00 p.m.</span>
+      <span class="badge badge-pill badge-info">5:30 p.m.</span>
+      <span class="badge badge-pill badge-info">7:00 p.m</span>
+      <span class="badge badge-pill badge-info">9:30 p.m.</span>
     </div>
   </div>
+  </div>
+  
+  </div>
 </div>
+
 
 <!-- END Showtimes -->
 
