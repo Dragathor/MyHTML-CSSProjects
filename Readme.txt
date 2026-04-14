@@ -39,3 +39,4 @@ Version 1.6.3 Started and finished Creating a CSS Menu assignment
 Version 1.6.4 Started and finished Effecting Images with CSS
 Version 1.6.5 Started and finished up to Creating an HTML and CSS Website Parts One to Four
 Version 1.6.6 Corrected errors and customised CSS Website Project
+Version 1.8.1 Finshed all CSS and Bootstrap tasks including Website Portfolio Project and Bootstrap sample project.
