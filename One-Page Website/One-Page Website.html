@@ -3,7 +3,8 @@
 	<head>
 		<title>The Protectorite's Inner Council</title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="./css_one_page.css">
+		<link rel="stylesheet" type="text/css" href="CSS/css_one_page.css">
+		<script src="./JS/one_page_website.js" defer></script>
 	</head>
 
 	<!-- NAV -->
@@ -28,25 +29,26 @@
 		<div>
 				<details class="text1">
 				<summary style="font-size: 45px;">Dare you view our GLORIOUS Leaders?</summary>
-			<div>
+			<div id="containers">
 
 					<h3 class="text2 flex-container" id="GLORIOUS_Leaders">Show respect civilian for these are the glorious leaders of the Greenheart!<br>Be in awe of these magnificant people!</h3>
 				<div class="flex-container">
 				
 				<!-- Leader Tile: Harkon Pegason -->
-					<div class="photo-container">
+					<div class="photo-container" onclick="openModal();currentSlide(1)">
 						<div class="photo">
 							<img src="./images/Reduced/Harkon_Pegason.jpg" alt="Harkon Pegason">
 							<div class="photo-overlay">
 								<h4>Harkon Pegason</h4>
-								<p>The leader of the council and fearless paladin. Justice and unity above all is sought, unafraid to make the harshest of decisions to protect the people.</p>
+								<p class="caption-container">The leader of the council and fearless paladin. Justice and unity above all is sought, unafraid to make the harshest of decisions to protect the people.</p>
 							</div>
 						</div>
 					</div>
+					
 				<!-- END Leader Tile: Harkon Pegason -->
 
 				<!-- Leader Tile: Catheshal Jaet -->
-					<div class="photo-container">
+					<div class="photo-container" onclick="openModal();currentSlide(2)">
 						<div class="photo">
 							<img src="./images/Reduced/Catheshal_Jaet.jpg" alt="Catheshal Jaet">
 							<div class="photo-overlay">
@@ -58,7 +60,7 @@
 				<!-- END Leader Tile: Catheshal Jaet -->
 
 				<!-- Leader Tile: Oleg Leventen -->
-					<div class="photo-container">
+					<div class="photo-container" onclick="openModal();currentSlide(3)">
 						<div class="photo">
 							<img src="./images/Reduced/Oleg_Leventen.jpg" alt="Oleg Leventen">
 							<div class="photo-overlay">
@@ -70,7 +72,7 @@
 				<!-- END Leader Tile: Oleg Leventen -->
 
 				<!-- Leader Tile: Finbar Garress -->
-					<div class="photo-container">
+					<div class="photo-container" onclick="openModal();currentSlide(4)">
 						<div class="photo">
 							<img src="./images/Reduced/Finbar_Garress.jpg" alt="Finbar Garress">
 							<div class="photo-overlay">
@@ -82,9 +84,9 @@
 				<!-- END Leader Tile: Finbar Garress -->
 
 				<!-- Leader Tile: Harlos Fury -->
-					<div class="photo-container">
+					<div class="photo-container" onclick="openModal();currentSlide(5)">
 						<div class="photo">
-							<img src="./images/Reduced/Harlos_Fury.jpg" alt="Harlos Fury">
+							<img src="./images/Reduced/Harlos_Fury.jpg" alt="Harlos Fury" onclick="openModal();currentSlide(5)">
 							<div class="photo-overlay">
 								<h4>Harlos Fury</h4>
 								<p>Head of faith and fiery of personality. Being a lava gnome she struggles with the passions and sensibilities of humans. Her fiery sermons often rouse religious fervour and aggression in ways she really doesn't mean or expect.</p>
@@ -94,9 +96,9 @@
 				<!-- END Leader Tile: Harlos Fury -->
 
 				<!-- Leader Tile: Varik Surtova -->
-					<div class="photo-container">
+					<div class="photo-container" onclick="openModal();currentSlide(6)">
 						<div class="photo">
-							<img src="./images/Reduced/Varik_Surtova.jpg" alt="Varik Surtova">
+							<img src="./images/Reduced/Varik_Surtova.jpg" alt="Varik Surtova" onclick="openModal();currentSlide(6)">
 							<div class="photo-overlay">
 								<h4>Varik Surtova</h4>
 								<p>Spymaster and problem solver... Hilariously due to his very private and secretive nature he is the most beloved. Acting as a poor herbalist being dragged about with the adventurers on the council. He ensures sponsoring for hospitals, orphanages and healers throughout the kingdom (a good portion of which are also spies and assassins).</p>
@@ -107,6 +109,58 @@
 				</div>
 			
 			</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+      <img src="./Images/Harkon Pegason.jpg" style="width:100%">
+	  <h4>Harkon Pegason</h4>
+	  <p>The leader of the council and fearless paladin. Justice and unity above all is sought, unafraid to make the harshest of decisions to protect the people.</p>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+      <img src="./Images/Catheshal Jaet.jpg" style="width:100%">
+	  <h4>Catheshal Jaet</h4>
+	  <p>Lead diplomat and fey like enchantress. All fall to their knees in awe at her beauty and grace.</p>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+      <img src="./Images/Oleg Leventen.jpg" style="width:95%">
+	  <h4>Oleg Leventen</h4>
+	  <p>The only normal member of the group. A regular frontier shopkeeper elevated to the treasurer of an entire empire. Constantly under the immense stress assisting in leading with mad adventurers.</p>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+      <img src="./Images/Finbar Garress.jpg" style="width:100%">
+	  <h4>Finbar Garress</h4>
+	  <p>Ruthless military warlord and commander of all forces in the Protectorate. Valuing loyalty and perfection and punishing failure with violence.</p>
+    </div>
+
+	<div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+      <img src="./Images/Harlos Fury.jpg" style="width:100%">
+	  <h4>Harlos Fury</h4>
+	  <p>Head of faith and fiery of personality. Being a lava gnome she struggles with the passions and sensibilities of humans. Her fiery sermons often rouse religious fervour and aggression in ways she really doesn't mean or expect.</p>
+	</div>
+
+	<div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+      <img src="./Images/Varik Surtova.jpg" style="width:100%">
+	  <h4>Varik Surtova</h4>
+	  <p>Spymaster and problem solver... Hilariously due to his very private and secretive nature he is the most beloved. Acting as a poor herbalist being dragged about with the adventurers on the council. He ensures sponsoring for hospitals, orphanages and healers throughout the kingdom (a good portion of which are also spies and assassins).</p>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+	</div>
+</div>
 
 			<ul class="menu"><a href="#Return" id="link"><li>Return</li></a></ul>
 			</details>
@@ -160,6 +214,7 @@
 			<iframe id="ytplayer" type="text/html" width="360" height="202" src="https://www.youtube.com/embed/sP1HIWyv8DI?controls=0&fs=0" frameborder="0" allowfullscreen></iframe>
 		</div>
 	</section>
+
 		<!-- Footer -->
 			<div id="footer">
 				www.adventurerguildpractice.co.uk &nbsp;&copy; 2026
@@ -167,6 +222,5 @@
 		<!-- END Footer -->
 
 	</body>
-	
 		
 </html>
