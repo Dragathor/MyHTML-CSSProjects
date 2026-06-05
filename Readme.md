@@ -11,13 +11,13 @@ Basic JS projects completed during Pitman Training Web development course. The o
 ### One-Page Website (updated with JS)
 Simple one page webpage with a JS lightbox display to view full sized version of the images on display.
 
-### Custom-Project Webpage
+### Custom-Project Webpage (to be updated with JS)
 A guide page to several locations in a Pathfinder RPG Campaign I run with contact forum (unlinked).
 
-### Bootstrap_4 Project
+### Bootstrap_4 Project (updated with Jquery)
 A webpage built using bootstrap 4.0 using Jquery to add popup forums for email signup (unlinked).
 
-### Portfolio Webpage Task
+### Portfolio Webpage Task (to be updated with JS)
 Basic portfolio webpage (hosted on github) for use on CV and eventually to be updated with future projects as well. 
 
 ### HTML & CSS Exercises
