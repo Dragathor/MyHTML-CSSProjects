@@ -7,6 +7,7 @@ Basic JS projects completed during Pitman Training Web development course. The o
 - [Custom-Project Webpage](https://github.com/Dragathor/MyHTML-CSSProjects/tree/master/Project-custom%20page)
 - [Bootstrap_4 Project](https://github.com/Dragathor/MyHTML-CSSProjects/tree/master/bootstrap4_project)
 - [Portfolio Webpage Task](https://github.com/Dragathor/MyHTML-CSSProjects/tree/master/Portfolio_Website_Assignment)
+- [Portfolio Website Assignment](https://github.com/Dragathor/MyHTML-CSSProjects/tree/master/Portfolio_Website_Assignment)
 
 ### One-Page Website (updated with JS)
 Simple one page webpage with a JS lightbox display to view full sized version of the images on display.
@@ -22,3 +23,6 @@ Basic portfolio webpage (hosted on github) for use on CV and eventually to be up
 
 ### HTML & CSS Exercises
 A folder containing various practice tasks compleated throughout Pitman-Training HTML & CSS.
+
+### Portfolio Website Assignment
+Creating a portfolio page to put information and progress updates of corse and achivements.
